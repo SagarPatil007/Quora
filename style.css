@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    position: relative;
+    perspective: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 745px;   
+    background-image: url(image2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -9;
+}
+
+.card{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+}
+.heading{
+    color: brown;
+    font-weight: bold;
+    text-align: center;;
+    font-size: 64px;
+}
+
+.text-desc{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.card2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical {
+    margin-top: 10px;
+    border-left: 1px solid black;
+    height: 230px;
+    position:absolute;
+    left: 50%;
+}
+
+.btn{
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid gray;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    margin-right: 15px;
+}
+
+.text{
+    font-size: 14px;
+    text-align: justify;
+    color: gray;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+}
+
+.btn-round{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #8b8be2;
+}
+
+.hr2{
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.text-lang{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #f1f2f2;
+    width: 700px;
+    height: 50px;
+    border: 2px solid #e9ecec;
+}
+
+.text-for{
+    margin-left: 60px;
+    font-size: 14px;
+    color: gray;
+}
+
+.diff{
+    display: flex;
+    justify-content: space-between;
+}
